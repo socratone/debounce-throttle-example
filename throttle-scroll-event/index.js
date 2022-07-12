@@ -1,7 +1,7 @@
 let isRequesting = false;
 let scrollY = 0;
 
-function update(y) {
+function update() {
   isRequesting = false;
 
   console.log('updated scrollY:', scrollY);
